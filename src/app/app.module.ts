@@ -9,6 +9,7 @@ import { ComponentsModule } from './components/components.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
+    MatCardModule,
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
