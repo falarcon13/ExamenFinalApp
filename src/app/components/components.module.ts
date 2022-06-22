@@ -10,6 +10,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { ComponenteComponent } from './componente/componente.component';
+import { Componente4Component } from './componente4/componente4.component';
 
 
 @NgModule({
@@ -17,11 +19,14 @@ import {MatCardModule} from '@angular/material/card';
     Componente1Component,
     Componente2Component,
     Componente3Component,
+    ComponenteComponent,
+    Componente4Component,
   ],
   exports: [
     Componente1Component,
     Componente2Component,
     Componente3Component,
+    Componente4Component,
   ],
   imports: [
     CommonModule,
